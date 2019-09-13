@@ -6,14 +6,20 @@ import ReactDom from 'react-dom'
 //import FamiliaSilva from './componentes/FamiliaSilva'
 //import Familia from './componentes/Familia'
 //import Membro from './componentes/Membro'
-import ComponenteComFuncao from './componentes/ComponenteComFuncao'
+//import ComponenteComFuncao from './componentes/ComponenteComFuncao'
+//import Pai from './componentes/Pai'
+//import ComponenteClasse from './componentes/ComponenteClasse'
+import Contador from './componentes/Contador'
 
 const elemento = document.getElementById('root')
 //const jsx = <h1>Olá React!</h1>
 //ReactDom.render(jsx, elemento)
 ReactDom.render(
         <div>
-            <ComponenteComFuncao />
+            <Contador numero={0} />
+            {/* <ComponenteClasse valor="Sou um componente de classe!" /> */}
+            {/* <Pai /> */}
+            {/* <ComponenteComFuncao /> */}
             {/* <Familia sobrenome="Pereirao">
                 <Membro nome="Andre" />
                 <Membro nome="Mariana" />

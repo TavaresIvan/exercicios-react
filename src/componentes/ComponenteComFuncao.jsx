@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default () => {
+export default props => {
     const aprovados = ['Paula', 'Roberta', 'Gustavo', 'Julia']
     
     const gerarItens = itens => {
