@@ -9,14 +9,16 @@ import ReactDom from 'react-dom'
 //import ComponenteComFuncao from './componentes/ComponenteComFuncao'
 //import Pai from './componentes/Pai'
 //import ComponenteClasse from './componentes/ComponenteClasse'
-import Contador from './componentes/Contador'
+//import Contador from './componentes/Contador'
+import Hook from './componentes/Hook'
 
 const elemento = document.getElementById('root')
 //const jsx = <h1>Olá React!</h1>
 //ReactDom.render(jsx, elemento)
 ReactDom.render(
         <div>
-            <Contador numero={0} />
+            <Hook />
+            {/* <Contador numero={0} /> */}
             {/* <ComponenteClasse valor="Sou um componente de classe!" /> */}
             {/* <Pai /> */}
             {/* <ComponenteComFuncao /> */}
